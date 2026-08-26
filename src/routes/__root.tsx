@@ -77,11 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "SaathiAI — Listen. Understand. Support. Connect." },
+      {
+        name: "description",
+        content:
+          "SaathiAI is a warm AI companion for lonely moments — it listens, supports, and helps you reach real human help.",
+      },
+      { name: "author", content: "SaathiAI" },
+      { property: "og:title", content: "SaathiAI — Listen. Understand. Support. Connect." },
+      {
+        property: "og:description",
+        content: "An emotional support companion that listens and connects you to human support.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
