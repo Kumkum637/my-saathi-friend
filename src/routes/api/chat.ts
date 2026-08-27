@@ -32,7 +32,7 @@ export const Route = createFileRoute("/api/chat")({
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            model: "google/gemini-2.5-flash",
+            model: "google/gemini-3.7-flash",
             messages: [
               { role: "system", content: body.system ?? "You are a kind listener." },
               ...body.messages.slice(-24),
